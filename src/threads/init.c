@@ -134,6 +134,16 @@ pintos_init (void)
     run_actions (argv);
   } else {
     // TODO: no command line passed to kernel. Run interactively 
+     
+     // propmt the user 
+     printf("ICS143A>");
+     
+     // get the input
+     
+     // ceck if it is whoami
+     // if yes print my name
+     // if no match keep repeating and I know the proccess keeps repeating so that's solved already
+     //if the input is exit the monitor will quite
   }
 
   /* Finish up. */
